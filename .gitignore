@@ -1,0 +1,19 @@
+.env
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Database (prevent uploading your personal tasks)
+task_mngmnt.db
+*.sqlite3
+
+# IDEs / Editor folders
+.vscode/
+.idea/
