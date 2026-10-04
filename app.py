@@ -30,7 +30,7 @@ from langchain_groq import ChatGroq
 from langchain.agents import create_agent
 
 llm = ChatGroq(
-    model = "openai/gpt-oss-20b",
+    model = "openai/gpt-oss-120b",
     temperature=0,
     streaming=True
 )
